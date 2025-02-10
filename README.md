@@ -10,6 +10,7 @@ Algoritmo ejemplo1
 	Escribir "la suma es: ",s
 FinAlgoritmo
 
+
 Pselnt descargar wuindos 
 
 ![Uploading image.png…]()
