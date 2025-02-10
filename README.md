@@ -16,3 +16,6 @@ Pselnt descargar wuindos
 
 
 la pueba 
+
+
+para desalloyar algorimos  de programacion 
