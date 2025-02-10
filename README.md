@@ -34,7 +34,7 @@ Algoritmo ejemplo2
 	Escribir "Ingrese el terser promedio:"
 	Leer c
 	//Proceso
-	p = a + b + c 
+	p = (a + b + c)/3
 	//Salida
 	Escribir "El promedio es :",p
 	
