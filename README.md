@@ -19,3 +19,25 @@ la pueba
 
 
 para desalloyar algorimos  de programacion 
+
+
+ejemplo 2 : 
+
+
+
+Algoritmo ejemplo2
+	//Entrada 
+	Escribir "Ingrese el primer promedio:"
+	Leer a
+	Escribir "Ingrese el seguno promedio:"
+	Leer b
+	Escribir "Ingrese el terser promedio:"
+	Leer c
+	//Proceso
+	p = a + b + c 
+	//Salida
+	Escribir "El promedio es :",p
+	
+
+FinAlgoritmo
+
