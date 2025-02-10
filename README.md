@@ -9,3 +9,10 @@ Algoritmo ejemplo1
 	//SALIDA
 	Escribir "la suma es: ",s
 FinAlgoritmo
+
+Pselnt descargar wuindos 
+
+![Uploading image.png…]()
+
+
+la pueba 
