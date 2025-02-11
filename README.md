@@ -97,6 +97,30 @@ res = a,b , b,a
 
 print(f"La respuesta {res}" )
 
+ejersicio 5 :
+
+#Escribir un programa para calcular la nota final de un estudiante,
+#considerando que: por cada respuesta correcta 5 puntos, por una incorrecta
+#-1 y por respuestas en blanco 0. Imprime el resultado obtenido por el
+#estudiante
+
+#Entrada 
+pc = int(input("Numero de preguntas correctas: "))
+pi = int(input("Numero de preguntas incorrecta: "))
+pb = int(input("Numero de preguntas en blanco: "))
+
+
+#Proceso 
+
+nf = pc *5 + pi*(-1)
+
+#Salida 
+print(f"{pc} pregunt.correctas, {pi} 3pregunt.incorrecta ,{pb} pregunt. blanco, {nf} la nota final ")
+
+
+
+
+
 esto va en operaciones tarea en informe .....
 
 
