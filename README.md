@@ -195,6 +195,19 @@ Algoritmo sin_titulo
 	Escribir "Con un descuento de s/ " "," , desc, "," "el total apagar" ",", pagar 
 FinAlgoritmo
 
+ejemplo 7 
+
+#Dado un número natural de dos cifras, elabore un programa que permita
+#obtener el número invertido. Ejemplo si se ingresa 23 que se muestre 32.
+
+a = int(input("Ingrese un munero de (2 cifras): "))
+d = a//10 
+u = a %10
+x = u*10+d
+
+print(f"el numero {a} invertido es {x}")
+
+
 
 
 
