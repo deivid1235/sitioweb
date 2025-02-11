@@ -1,5 +1,5 @@
 dia lunes : 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------
 Algoritmo ejemplo1
 	//ENTRADA
 	Escribir "Ingrese un primer numero:"
@@ -117,13 +117,32 @@ nf = pc *5 + pi*(-1)
 #Salida 
 print(f"{pc} pregunt.correctas, {pi} 3pregunt.incorrecta ,{pb} pregunt. blanco, {nf} la nota final ")
 
+jercisio 6 :
+
+#Se ingresa las edades de tres hermanos Luis, Juana y Felicita y el monto a
+#repartir. Implemente un programa que permita encontrar las cantidades
+#repartidas proporcionalmente según las edades de los tres hermanos.
+el = int(input("Edad de luis: "))
+ej = int(input("Edad de juana: "))
+ef = int(input("Edad de felicita: "))
+m = int(input("Monto a repartir: "))
+
+te = el + ej + ef
+ml = el*m /te
+mj = ej*m/te
+mf = ef*m/te
+
+print("\n --hermanos ----")
+print(f"Monto para luis s/ {ml}")
+print(f"Monto para juana s/ {mj}")
+print(f"Monto para felicita s/ {mf}")
 
 
 
 
 esto va en operaciones tarea en informe .....
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------
 ejemplos de PSelint 
 
 ejemplo 1 
@@ -206,6 +225,8 @@ u = a %10
 x = u*10+d
 
 print(f"el numero {a} invertido es {x}")
+
+
 
 
 
