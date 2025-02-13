@@ -228,6 +228,29 @@ print(f"el numero {a} invertido es {x}")
 
 
 
+dia jueves: 
+
+
+
+
+hh = int(input("Hora de partidad : "))
+mm = int(input("Minutos de partidad : "))
+ss = int(input("Segundos de partidad : "))
+tm = int(input("Tiempo de llegada a min: "))
+ts = int(input("Tiempo de llegada a seg: "))
+
+ss = (ss+ts)%60
+hh = hh + (mm+tm+(ss+ts)//60)//60
+mm = (mm+tm+(ss+ts)//60)%60
+
+
+print(f"LLegar a las {hh}: {mm}: {ss} ")
+
+
+
+
+
+
 
 
 
