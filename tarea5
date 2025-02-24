@@ -28,7 +28,7 @@ while True:
     elif op == 4:
         nombre, tarjeta, ahorro = cuentas.eliminar_cuenta(nombre, tarjeta, ahorro)
     elif op == 5:
-        print("\n👋 ¡Gracias por usar el sistema bancario! Regrese pronto...")
+        print("\n ¡Gracias por usar el sistema bancario! Regrese pronto...")
         break
 
 
